@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-s
+cale=1">
+  <meta name="description" content="">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-rim-auto-match" content="none">
+  <title>Моё здоровье</title>
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body  ontouchstart="">
+  <header class="header fixed_menu">
+    <div class="page-wrapper">
+      <div class="header__logo logo"><a href="#" class="go_to" data-href="#first-screen"><img src="img/logo.png" srcset="img/logo-2x.png 2x" width="200" alt=""></a></div>
+      <ul class="header__menu mainmenu">
+        <li class="mainmenu__item"><a href="#" class="mainmenu__link go_to" data-href="#intro">О сервисе</a></li>
+        <li class="mainmenu__item"><a href="#" class="mainmenu__link">Функции</a></li>
+        <li class="mainmenu__item marked"><a href="#" class="mainmenu__link">Возможности</a></li>
+        <li class="mainmenu__item"><a href="#" class="mainmenu__link">Партнеры</a></li>
+      </ul>
+      <button class="header__button button" type="button">Оставить заявку</button>
+      <div class="header__burger">
+        <button type="button" class="header__burger burger">
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="first-screen" id="first-screen">
+        <div class="first-screen__items">
+          <div class="first-screen__item active" id="block1" style="background-image: url('img/firstscreen_bg1-2x.png');">
+            <div class="page-wrapper">
+              <h1 class="first-screen__title">Расширяем возможности предоставления
+                качественных медицинских услуг</h1>
+              <p class="first-screen__text">&laquo;Дневник здоровья&raquo;&nbsp;&mdash; новый сервис для самоконтроля показателей состояния здоровья, разработанный для участников программы &laquo;Мое здоровье&raquo;.</p>
+              <button type="button" class="button first-screen__button">Узнать больше</button>
+              </div>
+          </div>
+          <div class="first-screen__item" id="block2" style="background-image: url('img/firstscreen_bg2-2x.png');">
+            <div class="page-wrapper">
+              <h1 class="first-screen__title">Следить за здоровьем станет проще</h1>
+              <p class="first-screen__text">Скоро вы&nbsp;сможете находиться на&nbsp;связи со&nbsp;своим лечащим врачом независимо от&nbsp;своего местоположения, вести дневник мониторинга самочувствия, получать рекомендации по&nbsp;плану лечения и&nbsp;многое другое.</p>
+              <button type="button" class="button first-screen__button">Узнать больше</button>
+            </div>
+          </div>
+        </div>
+        <div class="first-screen__switcher switcher"><button type="button" class="switcher__button switcher-button active" data-block="block1"></button><button type="button" class="switcher__button switcher-button" data-block="block2"></button></div>
+    </section>
+    <section class="intro" id="intro">
+      <div class="page-wrapper wow fadeInUp" data-wow-duration="2s">
+        <div class="intro__image">
+          <img src="img/intro.png" srcset="img/intro-2x.png 2x" width="335" alt="">
+        </div>
+        <div class="intro__text">
+          <h2 class="intro__title">Что такое &laquo;Дневник здоровья&raquo;?</h2>
+          Дневник пациента&nbsp;&mdash; это удобный онлайн-сервис:
+          <ul>
+            <li>Вносите результаты измерений вручную или с&nbsp;помощью интегрированных приборов</li>
+            <li>Ведите персональную медицинскую карту с&nbsp;историей ваших измерений</li>
+            <li>Делитесь результатами измерений со&nbsp;специалистами для повышения эффективности лечения</li>
+            <li>Получайте рекомендации, созданные специально для вас</li>
+          </ul>
+          <button type="button" class="button intro__button">Оставить заявку</button>
+        </div>
+      </div>
+    </section>
+    <section class="functions"></section>
+  </main>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
